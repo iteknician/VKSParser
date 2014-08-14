@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730EE2461978FBBE0069CC70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730EE2451978FBBE0069CC70 /* Foundation.framework */; };
+		730EE24A1978FBBE0069CC70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730EE2491978FBBE0069CC70 /* UIKit.framework */; };
+		730EE2501978FBBE0069CC70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 730EE24E1978FBBE0069CC70 /* InfoPlist.strings */; };
+		730EE2521978FBBE0069CC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EE2511978FBBE0069CC70 /* main.m */; };
+		730EE2561978FBBE0069CC70 /* VKSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EE2551978FBBE0069CC70 /* VKSAppDelegate.m */; };
+		730EE2581978FBBE0069CC70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730EE2571978FBBE0069CC70 /* Images.xcassets */; };
+		730EE2601978FBBE0069CC70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730EE2451978FBBE0069CC70 /* Foundation.framework */; };
+		730EE2611978FBBE0069CC70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730EE2491978FBBE0069CC70 /* UIKit.framework */; };
+		730EE2791979024F0069CC70 /* VKSXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EE2751979024F0069CC70 /* VKSXML.m */; };
+		73C0A83819795D3700BCBB3E /* sitemap.xml in Resources */ = {isa = PBXBuildFile; fileRef = 73C0A83719795D3700BCBB3E /* sitemap.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		730EE2621978FBBE0069CC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730EE23A1978FBBE0069CC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730EE2411978FBBE0069CC70;
+			remoteInfo = VKS_Parser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		730EE2421978FBBE0069CC70 /* VKS_Parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKS_Parser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730EE2451978FBBE0069CC70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		730EE2491978FBBE0069CC70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		730EE24D1978FBBE0069CC70 /* VKS_Parser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VKS_Parser-Info.plist"; sourceTree = "<group>"; };
+		730EE24F1978FBBE0069CC70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		730EE2511978FBBE0069CC70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		730EE2531978FBBE0069CC70 /* VKS_Parser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKS_Parser-Prefix.pch"; sourceTree = "<group>"; };
+		730EE2541978FBBE0069CC70 /* VKSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKSAppDelegate.h; sourceTree = "<group>"; };
+		730EE2551978FBBE0069CC70 /* VKSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKSAppDelegate.m; sourceTree = "<group>"; };
+		730EE2571978FBBE0069CC70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		730EE25D1978FBBE0069CC70 /* VKS_ParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKS_ParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		730EE2751979024F0069CC70 /* VKSXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKSXML.m; sourceTree = "<group>"; };
+		730EE2771979024F0069CC70 /* VKSXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKSXML.h; sourceTree = "<group>"; };
+		73C0A83719795D3700BCBB3E /* sitemap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sitemap.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730EE23F1978FBBE0069CC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730EE24A1978FBBE0069CC70 /* UIKit.framework in Frameworks */,
+				730EE2461978FBBE0069CC70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730EE25A1978FBBE0069CC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730EE2611978FBBE0069CC70 /* UIKit.framework in Frameworks */,
+				730EE2601978FBBE0069CC70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730EE2391978FBBE0069CC70 = {
+			isa = PBXGroup;
+			children = (
+				730EE24B1978FBBE0069CC70 /* VKS_Parser */,
+				730EE2441978FBBE0069CC70 /* Frameworks */,
+				730EE2431978FBBE0069CC70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		730EE2431978FBBE0069CC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730EE2421978FBBE0069CC70 /* VKS_Parser.app */,
+				730EE25D1978FBBE0069CC70 /* VKS_ParserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730EE2441978FBBE0069CC70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				730EE2451978FBBE0069CC70 /* Foundation.framework */,
+				730EE2491978FBBE0069CC70 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730EE24B1978FBBE0069CC70 /* VKS_Parser */ = {
+			isa = PBXGroup;
+			children = (
+				730EE2771979024F0069CC70 /* VKSXML.h */,
+				730EE2751979024F0069CC70 /* VKSXML.m */,
+				730EE2541978FBBE0069CC70 /* VKSAppDelegate.h */,
+				730EE2551978FBBE0069CC70 /* VKSAppDelegate.m */,
+				73C0A83719795D3700BCBB3E /* sitemap.xml */,
+				730EE2571978FBBE0069CC70 /* Images.xcassets */,
+				730EE24C1978FBBE0069CC70 /* Supporting Files */,
+			);
+			path = VKS_Parser;
+			sourceTree = "<group>";
+		};
+		730EE24C1978FBBE0069CC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				730EE24D1978FBBE0069CC70 /* VKS_Parser-Info.plist */,
+				730EE24E1978FBBE0069CC70 /* InfoPlist.strings */,
+				730EE2511978FBBE0069CC70 /* main.m */,
+				730EE2531978FBBE0069CC70 /* VKS_Parser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730EE2411978FBBE0069CC70 /* VKS_Parser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730EE26E1978FBBE0069CC70 /* Build configuration list for PBXNativeTarget "VKS_Parser" */;
+			buildPhases = (
+				730EE23E1978FBBE0069CC70 /* Sources */,
+				730EE23F1978FBBE0069CC70 /* Frameworks */,
+				730EE2401978FBBE0069CC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKS_Parser;
+			productName = VKS_Parser;
+			productReference = 730EE2421978FBBE0069CC70 /* VKS_Parser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		730EE25C1978FBBE0069CC70 /* VKS_ParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730EE2711978FBBE0069CC70 /* Build configuration list for PBXNativeTarget "VKS_ParserTests" */;
+			buildPhases = (
+				730EE2591978FBBE0069CC70 /* Sources */,
+				730EE25A1978FBBE0069CC70 /* Frameworks */,
+				730EE25B1978FBBE0069CC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730EE2631978FBBE0069CC70 /* PBXTargetDependency */,
+			);
+			name = VKS_ParserTests;
+			productName = VKS_ParserTests;
+			productReference = 730EE25D1978FBBE0069CC70 /* VKS_ParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730EE23A1978FBBE0069CC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VKS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Vikas;
+				TargetAttributes = {
+					730EE25C1978FBBE0069CC70 = {
+						TestTargetID = 730EE2411978FBBE0069CC70;
+					};
+				};
+			};
+			buildConfigurationList = 730EE23D1978FBBE0069CC70 /* Build configuration list for PBXProject "VKS_Parser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 730EE2391978FBBE0069CC70;
+			productRefGroup = 730EE2431978FBBE0069CC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730EE2411978FBBE0069CC70 /* VKS_Parser */,
+				730EE25C1978FBBE0069CC70 /* VKS_ParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730EE2401978FBBE0069CC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730EE2501978FBBE0069CC70 /* InfoPlist.strings in Resources */,
+				730EE2581978FBBE0069CC70 /* Images.xcassets in Resources */,
+				73C0A83819795D3700BCBB3E /* sitemap.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730EE25B1978FBBE0069CC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730EE23E1978FBBE0069CC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730EE2521978FBBE0069CC70 /* main.m in Sources */,
+				730EE2791979024F0069CC70 /* VKSXML.m in Sources */,
+				730EE2561978FBBE0069CC70 /* VKSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730EE2591978FBBE0069CC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		730EE2631978FBBE0069CC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730EE2411978FBBE0069CC70 /* VKS_Parser */;
+			targetProxy = 730EE2621978FBBE0069CC70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		730EE24E1978FBBE0069CC70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730EE24F1978FBBE0069CC70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730EE26C1978FBBE0069CC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		730EE26D1978FBBE0069CC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730EE26F1978FBBE0069CC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKS_Parser/VKS_Parser-Prefix.pch";
+				INFOPLIST_FILE = "VKS_Parser/VKS_Parser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		730EE2701978FBBE0069CC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKS_Parser/VKS_Parser-Prefix.pch";
+				INFOPLIST_FILE = "VKS_Parser/VKS_Parser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		730EE2721978FBBE0069CC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VKS_Parser.app/VKS_Parser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKS_Parser/VKS_Parser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VKS_ParserTests/VKS_ParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		730EE2731978FBBE0069CC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VKS_Parser.app/VKS_Parser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKS_Parser/VKS_Parser-Prefix.pch";
+				INFOPLIST_FILE = "VKS_ParserTests/VKS_ParserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730EE23D1978FBBE0069CC70 /* Build configuration list for PBXProject "VKS_Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730EE26C1978FBBE0069CC70 /* Debug */,
+				730EE26D1978FBBE0069CC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730EE26E1978FBBE0069CC70 /* Build configuration list for PBXNativeTarget "VKS_Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730EE26F1978FBBE0069CC70 /* Debug */,
+				730EE2701978FBBE0069CC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730EE2711978FBBE0069CC70 /* Build configuration list for PBXNativeTarget "VKS_ParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730EE2721978FBBE0069CC70 /* Debug */,
+				730EE2731978FBBE0069CC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730EE23A1978FBBE0069CC70 /* Project object */;
+}

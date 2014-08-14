@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:<note>
+    <Parent attributeParent = "ParentAttribute">
+     <child1>
+     child1Text
+     </child>
+     <child2>
+         child2Text
+     </child2>
+     <child3>
+         <child3Sub>
+         child3Sub
+         </child3Sub>
+     </child3>
+    </Parent>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+</note>
